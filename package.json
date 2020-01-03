@@ -3,18 +3,61 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.8.0",
+    "@material-ui/icons": "^4.5.1",
+    "@pathofdev/react-tag-input": "^1.0.7",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.0",
+    "bootstrap": "^4.4.1",
+    "canvasjs": "^1.8.3",
+    "font-awesome": "^4.7.0",
+    "fusioncharts": "^3.15.0-sr.1",
+    "google-map-react": "^1.1.5",
+    "jquery": "^3.4.1",
+    "mdbreact": "^4.23.1",
+    "mui-datatables": "^2.13.3",
+    "multi-select-react": "^0.1.8",
+    "nodemon": "^2.0.2",
+    "popper.js": "^1.16.0",
+    "rc-progress": "^2.5.2",
     "react": "^16.12.0",
+    "react-big-scheduler": "^0.2.7",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-bootstrap-multiselect": "^2.4.1",
+    "react-canvas-js": "^1.0.1",
+    "react-charts": "^2.0.0-beta.6",
+    "react-circular-progressbar": "^2.0.3",
+    "react-d3-speedometer": "^0.8.0",
+    "react-dnd": "^10.0.2",
+    "react-dnd-html5-backend": "^10.0.2",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.3.0"
+    "react-fusioncharts": "^3.0.1",
+    "react-gradient-progress": "^1.0.2",
+    "react-highcharts": "^16.1.0",
+    "react-scripts": "3.3.0",
+    "react-simple-sidenav": "^1.0.1",
+    "react-super-responsive-table": "^5.1.1",
+    "react-tabs": "^3.1.0",
+    "react-tag-input": "^6.4.2",
+    "react-tagsinput": "^3.19.0",
+    "react-vis": "^1.11.7",
+    "reactjs-tag-input": "^2.0.13",
+    "reactstrap": "^8.2.0",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0",
+    "styled-components": "^4.4.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node ./node_modules/react-scripts/bin/react-scripts.js start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "watch": "npm-watch"
+  },
+  "watch": {
+    "build": "src/"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -30,5 +73,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.7.4",
+    "npm-watch": "^0.6.0",
+    "react-socket-io": "^0.2.5"
   }
 }
